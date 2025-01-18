@@ -342,7 +342,7 @@
 		</div>
 		<a href="https://wa.me/+628123960394">
 			<div class="logo-wa">
-				<h2>Booking? Contact Us</h2>
+				<h2 id="book">Booking? Contact Us</h2>
             	<img src="assets/images/wa.png">
         	</div>
 		</a>
@@ -407,6 +407,7 @@
 							twoid: "Two Bed Rooms",
 							jam: "Opening Hours",
 							kon: "Contact Information",
+							book : "Booking? Contact Us",
 					},
 					id: {
 							nav1: "Beranda",
@@ -427,6 +428,7 @@
 							twoid: "Dua Kamar Tidur",
 							jam: "Jam Operasional",
 							kon: "Informasi Kontak",
+							book: "Pesan? Kontak Kami",
 					}
 			};
 
@@ -462,6 +464,7 @@
 				document.getElementById("kon").textContent = content[lang].kon;
 				document.getElementById("visi").textContent = content[lang].visi;
 				document.getElementById("misi").textContent = content[lang].misi;
+				document.getElementById("book").textContent =content[lang].book;
 			}
 
 		</script>

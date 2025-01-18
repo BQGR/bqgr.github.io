@@ -228,7 +228,7 @@
 		<!--accomodation end -->
 		<a href="https://wa.me/+628123960394">
 			<div class="logo-wa">
-				<h2>Booking? Contact Us</h2>
+				<h2 id="book">Booking? Contact Us</h2>
             	<img src="assets/images/wa.png">
         	</div>
 		</a>
@@ -329,7 +329,7 @@
 							subgallery: "Two Bed Rooms",
 							jam: "Opening Hours",
 							kon: "Contact Information",
-                            
+                            book: "Booking? Contact Us",
 							
 					},
 					id: {
@@ -342,7 +342,7 @@
 							subgallery: "Ruangan Dua Kamar Tidur",
 							jam: "Jam Operasional",
 							kon: "Informasi Kontak",
-                            
+                            book: "Pesan? Kontak Kami",
 							
 					}
 			};
@@ -370,7 +370,7 @@
 				document.getElementById("subgallery").textContent = content[lang].subgallery;
 				document.getElementById("jam").textContent = content[lang].jam;
 				document.getElementById("kon").textContent = content[lang].kon;
-
+				document.getElementById("book").textContent =content[lang].book;
 	
 			}
 

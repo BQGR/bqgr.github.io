@@ -194,7 +194,7 @@
 		</div>
 		<a href="https://wa.me/+628123960394">
 			<div class="logo-wa">
-				<h2>Booking? Contact Us</h2>
+				<h2 id="book">Booking? Contact Us</h2>
             	<img src="assets/images/wa.png">
         	</div>
 		</a>
@@ -249,6 +249,7 @@
 							subContact: "Contact Us",
 							jam: "Opening Hours",
 							kon: "Contact Information",
+							book : "Booking? Contact Us",
 							
 					},
 					id: {
@@ -261,6 +262,7 @@
 							subContact: "Kontak Kami",
 							jam: "Jam Operasional",
 							kon: "Informasi Kontak",
+							book: "Pesan? Kontak Kami",
 							
 					}
 			};
@@ -288,6 +290,7 @@
 				document.getElementById("subContact").textContent = content[lang].subContact;
 				document.getElementById("jam").textContent = content[lang].jam;
 				document.getElementById("kon").textContent = content[lang].kon;
+				document.getElementById("book").textContent =content[lang].book;
 
 				
 			}
